@@ -1,5 +1,5 @@
 # shure_wireless_reaper_companion
-Bitfocus Companion configurations to monitor Shure wireless receivers data and monitor Cockos Reaper channels
+Bitfocus Companion configurations to monitor Shure wireless receivers data and listen to Cockos Reaper channels
 
 SOFTWARE REQUIRED:
 - BitFocus Companion https://bitfocus.io/companion
