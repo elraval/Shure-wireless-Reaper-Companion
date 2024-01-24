@@ -1,12 +1,12 @@
 # Shure Wireless and Reaper Companion configuration
 Bitfocus Companion configurations to monitor Shure wireless receivers data and listen to them in Cockos Reaper. 
-Used by A2's, RF and mic-up techs in live events to monitor Shure Wireless (or any other RF or audio channel) wireless microphones.
+Used by A2's, RF and mic-up techs in live events to monitor Shure Wireless wireless microphones.
 Usually used in conjunction with Dante Virtual Soundcard (DVS).
 
-## SOFTWARE REQUIRED:
+## SOFTWARE REQUIREMENTS
    - BitFocus Companion https://bitfocus.io/companion
    - Cockos Reaper https://www.reaper.fm/
-
+   - Dante Virtual Soundcard (or any multitrack soundcard that can feed Reaper inputs)
 
 ## CONFIGURATION PAGES
 
@@ -16,8 +16,8 @@ Usually used in conjunction with Dante Virtual Soundcard (DVS).
 
 This page allows for visual monitoring of Shure wireless equipment data on the button.
   
-1) Pressing the button once arms a Reaper track, thus sending signal from that channel to the Master Bus.
-2) Pressing the button a secong time un-arms that track.
+1) Pressing the button once arms a Reaper track, thus sending signal from that channel to the Master Bus. Red button after pressing.
+2) Pressing the button a secong time un-arms that track. Button restores to black background.
 
 Companion Modules required:
  - Shure Wireless Microphones module (as many instances as your networked receivers) 
@@ -33,7 +33,6 @@ The page above controls Reaper Master volume fader
 Companion Modules required:
 - OSC Generic module
 
-
 ## REAPER CONFIGURATION
 
 - Build youself a multitrack session in Reaper and patch your soundcard inputs to individual channels.
@@ -41,3 +40,9 @@ Companion Modules required:
 
 ![Screenshot 2024-01-24 at 19 36 41](https://github.com/elraval/Shure-wireless-Reaper-Companion/assets/22182319/25fa017c-9423-4885-8a01-087c2d98c246)
 
+## COMPANION CONFIGURATION
+
+- Set the IP addresses of all your receivers in Companion's shure-wx module:
+![Screenshot 2024-01-24 at 19 44 05](https://github.com/elraval/Shure-wireless-Reaper-Companion/assets/22182319/508f5fe8-36bb-4b66-a59d-0d3f748177e6)
+
+  
