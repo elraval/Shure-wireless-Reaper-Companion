@@ -43,6 +43,12 @@ Companion Modules required:
 ## COMPANION CONFIGURATION
 
 - Set the IP addresses of all your receivers in Companion's shure-wx module:
+  
 ![Screenshot 2024-01-24 at 19 44 05](https://github.com/elraval/Shure-wireless-Reaper-Companion/assets/22182319/508f5fe8-36bb-4b66-a59d-0d3f748177e6)
+
+- Set the IP address and Ports in both your Reaper and Generic OSC modules. Here's an example of it when Reaper is running on the Companion machine:
+
+![Screenshot 2024-01-24 at 20 03 18](https://github.com/elraval/Shure-wireless-Reaper-Companion/assets/22182319/af0353ae-74db-44c3-b2d3-5ef29c339173)
+
 
   
