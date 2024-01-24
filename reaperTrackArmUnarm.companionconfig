@@ -1,0 +1,1829 @@
+{
+	"version": 4,
+	"type": "page",
+	"page": {
+		"name": "Reaper Track Arm",
+		"controls": {
+			"0": {
+				"0": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "YdvnjEkgrxP2SOyO5mZjF",
+							"type": "sample",
+							"instance_id": "Q2U3jbMjN",
+							"options": {
+								"channel": "1",
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "Up80RJde10vLZ66J-NMyj",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"location_target": "this",
+								"location_text": "$(this:page)/$(this:row)/$(this:column)",
+								"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+								"step": 1
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "6mWioVK3X1NkyfFBvBpd6",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"location_target": "this",
+								"location_text": "$(this:page)/$(this:row)/$(this:column)",
+								"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+								"step": 2
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "Xf0QBdJORe2bPCVkAaup8",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "1"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "QfDb-aMJRImplNbSud82_",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "1"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "yi7FOfg5agj77qH0Jy_83",
+							"type": "sample",
+							"instance_id": "Q2U3jbMjN",
+							"options": {
+								"channel": 2,
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "g2mfZqFtGlza-9g9sU9eM",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"size": "11",
+								"bgcolor": 0
+							},
+							"isInverted": false
+						},
+						{
+							"id": "CBEijHQnVpXJZlcloqzHH",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"size": "11",
+								"bgcolor": 16711680
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "D9kZPcuySilHL7KpA2zKz",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "2"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "0zhlxhSNzAseZZWK45Fza",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "2"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"2": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "fYspZ64cKljF6PpqxKOq0",
+							"type": "sample",
+							"instance_id": "vqD9X0E5F",
+							"options": {
+								"channel": "1",
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "vYxTmLcP-V4pHcG6LljUl",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "XRUIiuaQDM5PMqknYggKn",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "HvkCPteRoEnCrphSIGU3-",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "3"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "wWMyXlEFxYkdOiApmXxh-",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "3"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"3": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "IFDkCUmL9_wK6BHvkvoNa",
+							"type": "sample",
+							"instance_id": "vqD9X0E5F",
+							"options": {
+								"channel": 2,
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "bzo1-2dvpOuiRhQLycUQb",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "xZx0sEDdNK7Zj4_8w9Yq9",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "eANZPimGcGu6WqZ7KS4jT",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "4"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "0uELH_iXjomCUU_BBul85",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "4"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"4": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "c41_cA500L",
+							"type": "sample",
+							"instance_id": "gKBbmpyoM",
+							"options": {
+								"channel": 1,
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "nfvs-x9QBPKdyZ-9YsRvU",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "Qj_AsiDM7Y2F6z03dlHAd",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "67glbaiUKV",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "5"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "86UP6YHetuIDoUJiSOHAv",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "5"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			},
+			"1": {
+				"0": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "-gImugbOf0we_vDHcSRIN",
+							"type": "sample",
+							"instance_id": "gKBbmpyoM",
+							"options": {
+								"channel": 2,
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "n2T67gX8zSXzk7kKHrkE_",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "Zy3F_v2PkK1B69zP-0JOx",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "mDtMRAX47aOFi7jiq3gS8",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "6"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "-7yUoK1HpDV6DL4OW1JJo",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "6"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "NmCPSQC9nGs-N11oXNluE",
+							"type": "sample",
+							"instance_id": "FH8jg00Ur",
+							"options": {
+								"channel": "1",
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "2fVjPMJ8CL8XN7LZfj5RJ",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "D3WIhCQ9k7USIoqKzrdKi",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "zilCc1OVbtFpAIsnYctHU",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "7"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "X3AOIicxDyQSJqw79Z-K_",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "7"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"2": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "CTnaToMhnwvb7Q06ZWltE",
+							"type": "sample",
+							"instance_id": "FH8jg00Ur",
+							"options": {
+								"channel": 2,
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "Zszft8HKn-kHAhaJlWLcp",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "6vPriSibrWEQt1S0HVNR-",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "_gTMtIrpzIOPazQYd9j6Z",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "8"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "P-uL6HVXkRpLkcznK7mGq",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "8"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"3": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "NhvkQPOriBtGonOcM6xeS",
+							"type": "sample",
+							"instance_id": "-Gny-xS3Q",
+							"options": {
+								"channel": "1",
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "9rpz-hLuf2SP8ruA0k5QB",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "cYX7MDpGxGriZ7Un2bfo1",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "xb1Kvib7JUiTWhlQGEG2P",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "9"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "QMLUBN_uUgoBOh66e_kXc",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "9"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"4": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "QBnB7CDFwT1cWsLu7ONwh",
+							"type": "sample",
+							"instance_id": "-Gny-xS3Q",
+							"options": {
+								"channel": 2,
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "OTkidPyg0PEBFUWjWgecW",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "tVmkGYsxXCBfqEd6DZ6UR",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "0OO3J5BQmd_vgGMiyfZnj",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "10"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "HkLmYjVYTeUxApaGjTTWL",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "10"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			},
+			"2": {
+				"0": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "tLt2UWZxobpk-Hn18gMCJ",
+							"type": "sample",
+							"instance_id": "AMfdotdG4",
+							"options": {
+								"channel": "1",
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "luiFRQw0MK57Ar5DBJWLf",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "d0GCWoCh6O-t3p_k-7b9e",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "QaRZ_QSxYu1zdaTaIHCbJ",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "11"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "FdOOL5UMUVicP_jx93Q4d",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "11"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 8454016,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "7zF2d65Ye0ZyK65MTADjG",
+							"type": "sample",
+							"instance_id": "AMfdotdG4",
+							"options": {
+								"channel": 2,
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "k6o3sL9PWqULcOjWdcqgB",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "WdT8Z20PxXVtVTC6Ibwrj",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 16711680,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "vCOQrE4s6Fm2civbOjI8V",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "12"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "mfgE4mfTI16AvJGHcM5ya",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "12"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"2": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "vdIYcVz75AyirD9u0EN_b",
+							"type": "sample",
+							"instance_id": "_lAEmSiST",
+							"options": {
+								"channel": 1,
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "mm2B_vFLVU7S8R8gON7T4",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "pqxU4rjE49NoQA0wYC0bj",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 13369344,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "ILKRcrr64tCfvvHfa5aGP",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "13"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "6aAIGe2ef-Q6etOaGNNaQ",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "13"
+										},
+										"delay": 0
+									},
+									{
+										"id": "6DAH7k0wyya9sOIVRi9vG",
+										"action": "flash_lights",
+										"instance": "vqD9X0E5F",
+										"options": {},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"3": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16761024,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [
+						{
+							"id": "awIWsPsC6UNdVpvoy2YQj",
+							"type": "sample",
+							"instance_id": "_lAEmSiST",
+							"options": {
+								"channel": 2,
+								"labels": [
+									"name",
+									"audioGain",
+									"batteryRuntime"
+								],
+								"icons": [
+									"battery",
+									"locks",
+									"rf",
+									"audio",
+									"encryption",
+									"quality"
+								],
+								"barlevel": 2
+							},
+							"style": {}
+						},
+						{
+							"id": "_jWrO1QFMEwcw-UgHxKw7",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 1,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 0,
+								"size": "11"
+							},
+							"isInverted": false
+						},
+						{
+							"id": "lHZsm3DLj6OcFSPYVBGlJ",
+							"type": "bank_current_step",
+							"instance_id": "internal",
+							"options": {
+								"step": 2,
+								"location_target": "this"
+							},
+							"style": {
+								"bgcolor": 65280,
+								"size": "11"
+							},
+							"isInverted": false
+						}
+					],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "sEtcMi-B0NUmeU8fEdiFm",
+										"label": "Ef5EC1U8h:track_arm",
+										"instance": "Ef5EC1U8h",
+										"action": "track_arm",
+										"options": {
+											"track": "14"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "WvMDdMUfHUXX6eU4HOjkv",
+										"action": "track_unarm",
+										"instance": "Ef5EC1U8h",
+										"options": {
+											"track": "14"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"4": {
+					"type": "button",
+					"style": {
+						"text": "reaper Track Arm",
+						"textExpression": false,
+						"size": "18",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default",
+						"png": null,
+						"latch": false
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "R0czsIMqOlz",
+										"label": "bitfocus-companion:inc_page",
+										"instance": "internal",
+										"action": "inc_page",
+										"options": {
+											"controller": "self"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			}
+		},
+		"gridSize": {
+			"minColumn": 0,
+			"maxColumn": 7,
+			"minRow": 0,
+			"maxRow": 3
+		}
+	},
+	"instances": {
+		"Q2U3jbMjN": {
+			"instance_type": "shure-wireless",
+			"label": "AD1",
+			"enabled": true,
+			"config": {
+				"product": "Axient Digital (AD)",
+				"port": 2202,
+				"modelID": "ad4d",
+				"meteringOn": true,
+				"meteringInterval": 5000,
+				"host": "192.168.101.30",
+				"import_to": "new",
+				"variableFormat": "units"
+			},
+			"lastUpgradeIndex": 0,
+			"sortOrder": 0,
+			"isFirstInit": false
+		},
+		"Ef5EC1U8h": {
+			"instance_type": "cockos-reaper",
+			"label": "reaperModule",
+			"enabled": true,
+			"config": {
+				"product": "REAPER",
+				"port": "8000",
+				"feedbackPort": "9000",
+				"host": "127.0.0.1",
+				"import_to": "new"
+			},
+			"sortOrder": 12,
+			"lastUpgradeIndex": -1,
+			"isFirstInit": false
+		},
+		"vqD9X0E5F": {
+			"instance_type": "shure-wireless",
+			"label": "AD2",
+			"enabled": true,
+			"config": {
+				"product": "Axient Digital (AD)",
+				"port": 2202,
+				"modelID": "ad4d",
+				"meteringOn": true,
+				"meteringInterval": 5000,
+				"host": "192.168.101.31",
+				"import_to": "new",
+				"variableFormat": "units"
+			},
+			"lastUpgradeIndex": 0,
+			"sortOrder": 1,
+			"isFirstInit": false
+		},
+		"gKBbmpyoM": {
+			"instance_type": "shure-wireless",
+			"label": "AD3",
+			"enabled": true,
+			"config": {
+				"product": "Axient Digital (AD)",
+				"port": 2202,
+				"modelID": "ad4d",
+				"meteringOn": true,
+				"meteringInterval": 5000,
+				"host": "192.168.101.32",
+				"import_to": "new",
+				"variableFormat": "units"
+			},
+			"lastUpgradeIndex": 0,
+			"sortOrder": 2,
+			"isFirstInit": false
+		},
+		"FH8jg00Ur": {
+			"instance_type": "shure-wireless",
+			"label": "AD4",
+			"enabled": true,
+			"config": {
+				"product": "Axient Digital (AD)",
+				"port": 2202,
+				"modelID": "ad4d",
+				"meteringOn": true,
+				"meteringInterval": 5000,
+				"host": "192.168.101.33",
+				"import_to": "new",
+				"variableFormat": "units"
+			},
+			"lastUpgradeIndex": 0,
+			"sortOrder": 3,
+			"isFirstInit": false
+		},
+		"-Gny-xS3Q": {
+			"instance_type": "shure-wireless",
+			"label": "AD5",
+			"enabled": true,
+			"config": {
+				"product": "Axient Digital (AD)",
+				"port": 2202,
+				"modelID": "ad4d",
+				"meteringOn": true,
+				"meteringInterval": 5000,
+				"host": "192.168.101.34",
+				"import_to": "new",
+				"variableFormat": "units"
+			},
+			"lastUpgradeIndex": 0,
+			"sortOrder": 4,
+			"isFirstInit": false
+		},
+		"AMfdotdG4": {
+			"instance_type": "shure-wireless",
+			"label": "AD6",
+			"enabled": true,
+			"config": {
+				"product": "Axient Digital (AD)",
+				"port": 2202,
+				"modelID": "ad4d",
+				"meteringOn": true,
+				"meteringInterval": 5000,
+				"host": "192.168.101.35",
+				"import_to": "new",
+				"variableFormat": "units"
+			},
+			"lastUpgradeIndex": 0,
+			"sortOrder": 5,
+			"isFirstInit": false
+		},
+		"_lAEmSiST": {
+			"instance_type": "shure-wireless",
+			"label": "AD7",
+			"enabled": true,
+			"config": {
+				"product": "Axient Digital (AD)",
+				"port": 2202,
+				"modelID": "ad4q",
+				"meteringOn": true,
+				"meteringInterval": 5000,
+				"host": "192.168.101.36",
+				"import_to": "new",
+				"variableFormat": "units"
+			},
+			"lastUpgradeIndex": 0,
+			"sortOrder": 6,
+			"isFirstInit": false
+		}
+	},
+	"oldPageNumber": 2
+}
