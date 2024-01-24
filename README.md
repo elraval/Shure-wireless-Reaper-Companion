@@ -9,6 +9,7 @@ SOFTWARE REQUIRED:
 CONFIGURATION PAGES
 
 PAGE 1) Reaper track Arm/UnArm with Shure wireless equipment feedback
+https://github.com/elraval/shure_wireless_reaper_companion/blob/main/reaperTrackArmUnarm.companionconfig
 
 ![Screenshot 2024-01-24 at 16 08 26](https://github.com/elraval/shure_wireless_reaper_companion/assets/22182319/a5d8c051-d598-4dc1-b9e1-49a7912564db)
 
@@ -20,8 +21,10 @@ PAGE 1) Reaper track Arm/UnArm with Shure wireless equipment feedback
 
 Companion Modules required:
  - Shure Wireless Microphones module (as many instances as your networked receivers) 
- - Cockos Reaper module (rm and UnArm actions are built in the module)
+ - Cockos Reaper module (Arm and Unarm actions are built in the module)
    
+
+
 
 PAGE 2) Reaper Volume control
 
