@@ -32,3 +32,12 @@ The page above controls Reaper Master volume fader
 
 Companion Modules required:
 - OSC Generic module
+
+
+## REAPER CONFIGURATION
+
+- Build youself a multitrack session in Reaper and patch your soundcard inputs to individual channels.
+- Activate OSC in Reaper preferences. Here's an example of sucha a Reaper session and OSC settings:
+
+![Screenshot 2024-01-24 at 19 36 41](https://github.com/elraval/Shure-wireless-Reaper-Companion/assets/22182319/25fa017c-9423-4885-8a01-087c2d98c246)
+
