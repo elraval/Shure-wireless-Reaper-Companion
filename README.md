@@ -21,7 +21,7 @@ This page allows for visual monitoring of Shure wireless equipment data on the b
 
 Companion Modules required:
  - Shure Wireless Microphones module (as many instances as your networked receivers) 
- - Cockos Reaper module (Arm and Unarm actions are built in the module)
+ - Cockos Reaper module (UnMute and Mute actions are built in the module)
    
 
 ### 2 - Reaper Volume control
