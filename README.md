@@ -10,14 +10,14 @@ Usually used in conjunction with Dante Virtual Soundcard (DVS).
 
 ## CONFIGURATION PAGES
 
-### **1 - Reaper track arm**
+### **1 - Reaper track unMute/Mute**
 
 ![Screenshot 2024-01-24 at 16 08 26](https://github.com/elraval/shure_wireless_reaper_companion/assets/22182319/a5d8c051-d598-4dc1-b9e1-49a7912564db)
 
 This page allows for visual monitoring of Shure wireless equipment data on the button.
   
-1) Pressing the button once arms a Reaper track, thus sending signal from that channel to the Master Bus. Red button after pressing.
-2) Pressing the button a secong time un-arms that track. Button restores to black background.
+1) Pressing the button once unmutes a Reaper track, thus sending signal from that channel to the Master Bus. Red button after pressing.
+2) Pressing the button a secong time mutes that track. Button restores to black background.
 
 Companion Modules required:
  - Shure Wireless Microphones module (as many instances as your networked receivers) 
